@@ -18,10 +18,6 @@ struct ObjectsListView: View {
             List {
                 ForEach(detectedObjects, id: \.self) { object in
                     Text(object.capitalized)
-                        .background(
-                            RoundedRectangle(cornerRadius: 30).fill(.accent)
-                                .softInnerShadow(RoundedRectangle(cornerRadius: 30), darkShadow: .gray, lightShadow: .white, spread: 0.05, radius: 2)
-                        )
                 }
                 .onDelete(perform: promptDeletion)
             }

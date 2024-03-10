@@ -8,10 +8,6 @@
 import SwiftUI
 
 extension Color {
-    static let background = Color("BackgroundColor")
-    static let matrixCell = Color("MatrixCell")
-    static let canvas = Color("Canvas")
-    
     func inverse() -> Color {
         guard let components = UIColor(self).cgColor.components else { return Color.accentColor }
         return Color(red: 1 - components[0], green: 1 - components[1], blue: 1 - components[2])

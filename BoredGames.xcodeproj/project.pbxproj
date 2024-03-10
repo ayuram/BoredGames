@@ -21,8 +21,10 @@
 		C955F1FA2B9D3A8000A3F93D /* ObjectDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1F92B9D3A8000A3F93D /* ObjectDetector.swift */; };
 		C955F1FC2B9D3BAE00A3F93D /* ObjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1FB2B9D3BAE00A3F93D /* ObjectsListView.swift */; };
 		C955F2022B9D527000A3F93D /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = C955F2012B9D527000A3F93D /* Neumorphic */; };
-		C955F2062B9D5CBE00A3F93D /* TypeModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F2052B9D5CBE00A3F93D /* TypeModifierView.swift */; };
 		C955F2082B9D5D1600A3F93D /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F2072B9D5D1600A3F93D /* UIExtensions.swift */; };
+		C955F20A2B9D991500A3F93D /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F2092B9D991500A3F93D /* ObjectModel.swift */; };
+		C955F20C2B9DA04500A3F93D /* ObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F20B2B9DA04500A3F93D /* ObjectView.swift */; };
+		C955F20E2B9E26A200A3F93D /* EnvironmentCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F20D2B9E26A200A3F93D /* EnvironmentCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +62,10 @@
 		C955F1F62B9D357A00A3F93D /* GameBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBuilderView.swift; sourceTree = "<group>"; };
 		C955F1F92B9D3A8000A3F93D /* ObjectDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetector.swift; sourceTree = "<group>"; };
 		C955F1FB2B9D3BAE00A3F93D /* ObjectsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsListView.swift; sourceTree = "<group>"; };
-		C955F2052B9D5CBE00A3F93D /* TypeModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeModifierView.swift; sourceTree = "<group>"; };
 		C955F2072B9D5D1600A3F93D /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		C955F2092B9D991500A3F93D /* ObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectModel.swift; sourceTree = "<group>"; };
+		C955F20B2B9DA04500A3F93D /* ObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectView.swift; sourceTree = "<group>"; };
+		C955F20D2B9E26A200A3F93D /* EnvironmentCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 				C955F1EC2B9C084300A3F93D /* ModelParser.swift */,
 				C955F1EA2B9C050400A3F93D /* GameModel.swift */,
 				C955F1F92B9D3A8000A3F93D /* ObjectDetector.swift */,
+				C955F2092B9D991500A3F93D /* ObjectModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			children = (
 				C955F1F62B9D357A00A3F93D /* GameBuilderView.swift */,
 				C955F1FB2B9D3BAE00A3F93D /* ObjectsListView.swift */,
+				C955F20D2B9E26A200A3F93D /* EnvironmentCaptureView.swift */,
 			);
 			path = GameBuilder;
 			sourceTree = "<group>";
@@ -182,7 +188,7 @@
 		C955F2042B9D57D400A3F93D /* GamePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				C955F2052B9D5CBE00A3F93D /* TypeModifierView.swift */,
+				C955F20B2B9DA04500A3F93D /* ObjectView.swift */,
 			);
 			path = GamePlayer;
 			sourceTree = "<group>";
@@ -323,12 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C955F2062B9D5CBE00A3F93D /* TypeModifierView.swift in Sources */,
 				C955F1EF2B9C196B00A3F93D /* Extensions.swift in Sources */,
+				C955F20A2B9D991500A3F93D /* ObjectModel.swift in Sources */,
 				C955F1FC2B9D3BAE00A3F93D /* ObjectsListView.swift in Sources */,
 				C955F2082B9D5D1600A3F93D /* UIExtensions.swift in Sources */,
 				C955F1C02B9BFB0100A3F93D /* ContentView.swift in Sources */,
+				C955F20C2B9DA04500A3F93D /* ObjectView.swift in Sources */,
 				C955F1F72B9D357A00A3F93D /* GameBuilderView.swift in Sources */,
+				C955F20E2B9E26A200A3F93D /* EnvironmentCaptureView.swift in Sources */,
 				C955F1EB2B9C050400A3F93D /* GameModel.swift in Sources */,
 				C955F1ED2B9C084300A3F93D /* ModelParser.swift in Sources */,
 				C955F1FA2B9D3A8000A3F93D /* ObjectDetector.swift in Sources */,
