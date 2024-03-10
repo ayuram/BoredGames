@@ -14,6 +14,15 @@
 		C955F1D02B9BFB0300A3F93D /* BoredGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1CF2B9BFB0300A3F93D /* BoredGamesTests.swift */; };
 		C955F1DA2B9BFB0300A3F93D /* BoredGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1D92B9BFB0300A3F93D /* BoredGamesUITests.swift */; };
 		C955F1DC2B9BFB0300A3F93D /* BoredGamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1DB2B9BFB0300A3F93D /* BoredGamesUITestsLaunchTests.swift */; };
+		C955F1EB2B9C050400A3F93D /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1EA2B9C050400A3F93D /* GameModel.swift */; };
+		C955F1ED2B9C084300A3F93D /* ModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1EC2B9C084300A3F93D /* ModelParser.swift */; };
+		C955F1EF2B9C196B00A3F93D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1EE2B9C196B00A3F93D /* Extensions.swift */; };
+		C955F1F72B9D357A00A3F93D /* GameBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1F62B9D357A00A3F93D /* GameBuilderView.swift */; };
+		C955F1FA2B9D3A8000A3F93D /* ObjectDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1F92B9D3A8000A3F93D /* ObjectDetector.swift */; };
+		C955F1FC2B9D3BAE00A3F93D /* ObjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F1FB2B9D3BAE00A3F93D /* ObjectsListView.swift */; };
+		C955F2022B9D527000A3F93D /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = C955F2012B9D527000A3F93D /* Neumorphic */; };
+		C955F2062B9D5CBE00A3F93D /* TypeModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F2052B9D5CBE00A3F93D /* TypeModifierView.swift */; };
+		C955F2082B9D5D1600A3F93D /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955F2072B9D5D1600A3F93D /* UIExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,14 @@
 		C955F1D52B9BFB0300A3F93D /* BoredGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoredGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C955F1D92B9BFB0300A3F93D /* BoredGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredGamesUITests.swift; sourceTree = "<group>"; };
 		C955F1DB2B9BFB0300A3F93D /* BoredGamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredGamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C955F1EA2B9C050400A3F93D /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		C955F1EC2B9C084300A3F93D /* ModelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelParser.swift; sourceTree = "<group>"; };
+		C955F1EE2B9C196B00A3F93D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C955F1F62B9D357A00A3F93D /* GameBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBuilderView.swift; sourceTree = "<group>"; };
+		C955F1F92B9D3A8000A3F93D /* ObjectDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetector.swift; sourceTree = "<group>"; };
+		C955F1FB2B9D3BAE00A3F93D /* ObjectsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsListView.swift; sourceTree = "<group>"; };
+		C955F2052B9D5CBE00A3F93D /* TypeModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeModifierView.swift; sourceTree = "<group>"; };
+		C955F2072B9D5D1600A3F93D /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C955F2022B9D527000A3F93D /* Neumorphic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +113,8 @@
 		C955F1BC2B9BFB0100A3F93D /* BoredGames */ = {
 			isa = PBXGroup;
 			children = (
+				C955F1F32B9D351600A3F93D /* Views */,
+				C955F1F22B9D34FF00A3F93D /* Models */,
 				C955F1BD2B9BFB0100A3F93D /* BoredGamesApp.swift */,
 				C955F1BF2B9BFB0100A3F93D /* ContentView.swift */,
 				C955F1C12B9BFB0300A3F93D /* Assets.xcassets */,
@@ -129,6 +149,44 @@
 			path = BoredGamesUITests;
 			sourceTree = "<group>";
 		};
+		C955F1F22B9D34FF00A3F93D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C955F1EE2B9C196B00A3F93D /* Extensions.swift */,
+				C955F1EC2B9C084300A3F93D /* ModelParser.swift */,
+				C955F1EA2B9C050400A3F93D /* GameModel.swift */,
+				C955F1F92B9D3A8000A3F93D /* ObjectDetector.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C955F1F32B9D351600A3F93D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C955F2042B9D57D400A3F93D /* GamePlayer */,
+				C955F1F82B9D363C00A3F93D /* GameBuilder */,
+				C955F2072B9D5D1600A3F93D /* UIExtensions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C955F1F82B9D363C00A3F93D /* GameBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				C955F1F62B9D357A00A3F93D /* GameBuilderView.swift */,
+				C955F1FB2B9D3BAE00A3F93D /* ObjectsListView.swift */,
+			);
+			path = GameBuilder;
+			sourceTree = "<group>";
+		};
+		C955F2042B9D57D400A3F93D /* GamePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C955F2052B9D5CBE00A3F93D /* TypeModifierView.swift */,
+			);
+			path = GamePlayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +203,9 @@
 			dependencies = (
 			);
 			name = BoredGames;
+			packageProductDependencies = (
+				C955F2012B9D527000A3F93D /* Neumorphic */,
+			);
 			productName = BoredGames;
 			productReference = C955F1BA2B9BFB0100A3F93D /* BoredGames.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +278,9 @@
 				Base,
 			);
 			mainGroup = C955F1B12B9BFB0100A3F93D;
+			packageReferences = (
+				C955F2002B9D526F00A3F93D /* XCRemoteSwiftPackageReference "neumorphic" */,
+			);
 			productRefGroup = C955F1BB2B9BFB0100A3F93D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +323,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C955F2062B9D5CBE00A3F93D /* TypeModifierView.swift in Sources */,
+				C955F1EF2B9C196B00A3F93D /* Extensions.swift in Sources */,
+				C955F1FC2B9D3BAE00A3F93D /* ObjectsListView.swift in Sources */,
+				C955F2082B9D5D1600A3F93D /* UIExtensions.swift in Sources */,
 				C955F1C02B9BFB0100A3F93D /* ContentView.swift in Sources */,
+				C955F1F72B9D357A00A3F93D /* GameBuilderView.swift in Sources */,
+				C955F1EB2B9C050400A3F93D /* GameModel.swift in Sources */,
+				C955F1ED2B9C084300A3F93D /* ModelParser.swift in Sources */,
+				C955F1FA2B9D3A8000A3F93D /* ObjectDetector.swift in Sources */,
 				C955F1BE2B9BFB0100A3F93D /* BoredGamesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,6 +681,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C955F2002B9D526F00A3F93D /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C955F2012B9D527000A3F93D /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C955F2002B9D526F00A3F93D /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C955F1B22B9BFB0100A3F93D /* Project object */;
 }
