@@ -31,78 +31,8 @@ protocol GameModel {
     var losingCondition: String? { get }
 }
 
-// Model for a cooperative game
-struct CooperativeGame: GameModel {
-    var players: Int
-    var rules: String
-    var objective: String
-    var instructions: String
-    var winningCondition: String
-    var losingCondition: String?
-}
-
-// Model for a non-cooperative game
-struct NonCooperativeGame: GameModel {
-    var players: Int
-    var rules: String
-    var objective: String
-    var instructions: String
-    var winningCondition: String
-    var losingCondition: String?
-}
-
-// Model for a simultaneous game
-struct SimultaneousGame: GameModel {
-    var players: Int
-    var rules: String
-    var objective: String
-    var instructions: String
-    var winningCondition: String
-    var losingCondition: String?
-}
-
 // Model for a sequential game
 struct SequentialGame: GameModel {
-    var players: Int
-    var rules: String
-    var objective: String
-    var instructions: String
-    var winningCondition: String
-    var losingCondition: String?
-}
-
-// Model for a zero-sum game
-struct ZeroSumGame: GameModel {
-    var players: Int
-    var rules: String
-    var objective: String
-    var instructions: String
-    var winningCondition: String
-    var losingCondition: String?
-}
-
-// Model for a non-zero-sum game
-struct NonZeroSumGame: GameModel {
-    var players: Int
-    var rules: String
-    var objective: String
-    var instructions: String
-    var winningCondition: String
-    var losingCondition: String?
-}
-
-// Model for a symmetric game
-struct SymmetricGame: GameModel {
-    var players: Int
-    var rules: String
-    var objective: String
-    var instructions: String
-    var winningCondition: String
-    var losingCondition: String?
-}
-
-// Model for an asymmetric game
-struct AsymmetricGame: GameModel {
     var players: Int
     var rules: String
     var objective: String
